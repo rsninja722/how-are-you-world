@@ -1,2 +1,2 @@
-# how-are-you-world
-everyone always greets the world, nut no one asks how the world is feeling
+# how are you world?
+it's like [hello world](https://github.com/rsninja722/helloworld) but I am continuing the small talk with world
