@@ -4,8 +4,9 @@
 </head>
 <body>
 <p>Your browser does not support all javascript features</p>
-<script>
-/*
+<!-- 
+    TODO
+    add explanation of each
     IDEAS
     generators
     iterators
@@ -23,7 +24,10 @@
     microtask
     Object .call
     globalThis.window.globalThis
-*/
+    atomics
+    ArrayBuffer 
+-->
+<script>
 "use strict";
 var msg = new String("god is dead and we killed him".substring(0,0));
 
@@ -75,13 +79,47 @@ msg += e.E(e.e);
 spacer.space = "help me";
 
 // y
+Number.prototype.addToMsg = s => msg += s;
+class a {
+    constructor(c) {
+        this.c = c;
+    }
+    static f() {
+        return document.getElementsByTagName("script")[0].text.split("\n")[51][Math.trunc((((51^51)+~51)>>>51)/51**([!+[]+!+[]]+[]))];
+    }
+}
+class b extends a {
+    constructor(c) {
+        super(c);
+    }
+    get y() {
+        return this.c.f();
+    }
+}
+var d = new b(b);
+(+"why tho").addToMsg(d.y);
+
+// o
+(new Number).addToMsg.call(this,Array.from(b.prototype.__proto__.__proto__.constructor.prototype.valueOf.__proto__.__proto__.toString.call()).slice(1,2));
+
+// u
+(420).addToMsg((eval("Number.__proto__")+[])[+!!{}]);
+
+// 
+spacer.space = "javascript, more like stupidscript lmao";
+
+// w
 
 // o
 
-// u
-Number.prototype.addToMsg = s => msg += s;
-(420).addToMsg((eval("Number.__proto__")+[])[+!!{}]);
+// r
 
+// l
+
+// d
+
+// ?
+// just do msg += "?" but wrapped in a million things
 
 // make and add canvas to page
 document.body.appendChild(document.createElement("canvas"));
