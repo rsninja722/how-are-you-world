@@ -5,26 +5,82 @@
 <body>
 <p>Your browser does not support all javascript features</p>
 <script>
+/*
+    IDEAS
+    generators
+    iterators
+    maps/sets
+    Symbols
+    Object create, entries, getOwnPropertyDescriptors
+    delete
+    .valueOf =
+    PrimitiveValue
+    hint
+    async
+    onsomething
+    btoa atob
+    new Boolean
+    microtask
+    Object .call
+    globalThis.window.globalThis
+*/
 "use strict";
 var msg = new String("god is dead and we killed him".substring(0,0));
 
 // H
-try {
-    msg = msg + new String().padStart(1,String.fromCharCode(72));
-} catch(error) {
-    console.error(`%cerror: ${error}!`,"color:red;font-family: Comic Sans MS;outline: black;font-size:200%;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;");
-} finally {
-    console.dir("might of added H, idk");
-}
+void function() {
+    try {
+        msg = msg + new String().padStart(1,String.fromCharCode(72));
+    } catch(error) {
+        console.error(`%cerror: ${error}!`,"color:red;font-family: Comic Sans MS;outline: black;font-size:200%;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;");
+    } finally {
+        console.dir("might of added H, idk");
+    }
+}()
 
 // o
 msg = msg.concat(document.body.outerHTML[2]);
+
 
 // w
 [function addw() {
     msg += addw.toString()[12];
 }][+[]]();
 
+// 
+var spacer = (new Object);
+spacer.__defineSetter__("space",function(value){ msg += spacer.__lookupSetter__("space").toString().charAt(16);console.warn(value);});
+spacer.space = "﷽";
+
+// a
+String.prototype.returnA = new Function("return 'a';");
+msg = msg + [] + "why do we exist".returnA();
+
+// r
+msg = [msg].map(stuff => stuff + ([console.warn.name[console.warn.name.indexOf("n")-!![]]][Object.name.length-6]))[+Array.name.endsWith("stupid js")];
+
+// e
+function e() {
+    if(!e.e) {e.e = +!"e".e;}
+    ++e.e;
+    return e.e;
+}
+e.E = e => String["fromCharCode"](e);
+do {
+    e();
+} while (e.E(e.e) !== "e");
+msg += e.E(e.e);
+
+// 
+spacer.space = "help me";
+
+// y
+
+// o
+
+// u
+Number.prototype.addToMsg = s => msg += s;
+(420).addToMsg((eval("Number.__proto__")+[])[+!!{}]);
 
 
 // make and add canvas to page
