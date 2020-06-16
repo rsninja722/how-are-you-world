@@ -27,7 +27,7 @@ create an object and define a setter that looks it self up, converts its code to
 every time a space is needed, spacer.space is set to something
 
 ## a
-add to the String prototype a function that returns "a". the function is created with "new Function" because Brendan Eich hates us all 
+make a function that returns "constructor", then set c to "constructor". Get constructor of "constructor" which is a string, then get that constructor, which is a function, then use that to add to the String prototype a function that returns "a". the function is created with "new Function" because Brendan Eich hates us all 
 
 msg is set to itself + [] which is treated as an empty string + a string with returnA called on it
 
@@ -69,6 +69,7 @@ a big chain of prototypes eventually calls toString on one of the prototypes, wh
 same as the first space
 
 ## w
+no
 
 ## o
 

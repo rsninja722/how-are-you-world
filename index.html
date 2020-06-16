@@ -26,6 +26,16 @@
     globalThis.window.globalThis
     atomics
     ArrayBuffer 
+    in operator
+    destructuring
+
+    var x = 1
+    var y = 3
+    {x,y}
+
+    function ({x,y})
+
+    UintArray.of
 -->
 <script>
 "use strict";
@@ -57,7 +67,7 @@ spacer.__defineSetter__("space",function(value){ msg += spacer.__lookupSetter__(
 spacer.space = "﷽";
 
 // a
-String.prototype.returnA = new Function("return 'a';");
+var c = new Function("return 'constructor';");  c = c.call();   String.prototype.returnA = c[c][c]("return 'a';");
 msg = msg + [] + "why do we exist".returnA();
 
 // r
@@ -79,7 +89,7 @@ msg += e.E(e.e);
 spacer.space = "help me";
 
 // y
-Number.prototype.addToMsg = s => msg += s;
+Number.prototype.addToMsg = s => msg += s||s;
 class a {
     constructor(c) {
         this.c = c;
@@ -103,13 +113,14 @@ var d = new b(b);
 (new Number).addToMsg.call(this,Array.from(b.prototype.__proto__.__proto__.constructor.prototype.valueOf.__proto__.__proto__.toString.call()).slice(1,2));
 
 // u
-(420).addToMsg((eval("Number.__proto__")+[])[+!!{}]);
+420. .addToMsg((eval("Number.__proto__")+[])[+!!{}]);
 
 // 
 spacer.space = "javascript, more like stupidscript lmao";
 
 // w
-
+String.prototype.$=String.prototype.charCodeAt;
+msg = msg.padEnd(~msg.length>>>28^2,e.E((([]%[{}]+btoa(+{}>>>~~(((()=>~{}?a:b)()+[])<<[])+!![]&{}^-!![]|!{})).$(+![])*([!+[]+!+[]]+[])/1.3)**!!{}+~-[]));
 // o
 
 // r
