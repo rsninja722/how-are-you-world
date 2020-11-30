@@ -72,8 +72,10 @@ same as the first space
 no
 
 ## o
+get o from Error as a string, then call bruh to return a function used as a template literal tag, which adds the arguments of the template literal ( o and msg)
 
 ## r
+create a generator which will yield the return value of another yield. It is obfuscated by being in an object with a computed property name, then being accessed and called. the generator gets next called, the again with a value of true passed in. The first yield returns the return value of the second yield in an object, g is then assigned this object, obfuscated by destructuring assignment with a default value. An iterator is defined for g, which will add the r from true to msg by creating an array of the letters of msg and the r, then joining them back together, then the iterator will return that it is done. The iterator is run by the for...of loop inside of a bunch of unnecessary control flow. All of this is in a block.
 
 ## l
 
@@ -82,8 +84,6 @@ no
 ## ?
 
 # showing msg
-
-## canvas setup
 
 a new canvas is added to the document
 
