@@ -13,8 +13,8 @@ get "H" by makeing a string from char code 72, add it to msg from within a try,c
 
 ## o
 get the text of the html body tag, and get the character at index 2, which is "o"
-
-set msg to itself concatenated with the "o"
+ 
+set msg to itself concatenated withthe "o"
 
 ## w
 create an array with the first element being a function, and call it
@@ -78,10 +78,13 @@ get o from Error as a string, then call bruh to return a function used as a temp
 create a generator which will yield the return value of another yield. It is obfuscated by being in an object with a computed property name, then being accessed and called. the generator gets next called, the again with a value of true passed in. The first yield returns the return value of the second yield in an object, g is then assigned this object, obfuscated by destructuring assignment with a default value. An iterator is defined for g, which will add the r from true to msg by creating an array of the letters of msg and the r, then joining them back together, then the iterator will return that it is done. The iterator is run by the for...of loop inside of a bunch of unnecessary control flow. All of this is in a block.
 
 ## l
+override a's toPrimitive function, with one that returns an l by converting itself to a string, then using a needlessly complex regex, finds and returns the l in callee. adding class b (which extends class) to msg causes the toPrimitive to be called.
 
 ## d
+set f to the return value of console.log which is undefined. Compile and call a WASM module that returns 2, and use it to access undefined as a string at that index. 
 
 ## ?
+queue a macro task that puts a function in a set that adds "?" to msg. set an interval that checks if d hasn't been added yet. Once it has been added, call the function that adds "?". Then start showing the message.
 
 # showing msg
 
