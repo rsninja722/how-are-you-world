@@ -1,6 +1,6 @@
 # how are you world?
-it's like [hello world](https://github.com/rsninja722/helloworld) but I am continuing the small talk with world
-
+This was an exercise in exploring what is possible in javascript, and really trying to utilize some less commonly used features.
+The following is an explanation of how each part in index.html works.
 
 ## code explanation
 
